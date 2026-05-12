@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="camera-component-container">
+      <div class="camera-card">
+        <video id="video" autoplay playsinline></video>
+        <div class="camera-ui">
+          <div class="top-bar">
+            <p id="photo-count">0 foto's</p>
+          </div>
+          <div class="bottom-bar">
+            <div id="mini-preview"></div>
+            <button id="snap-btn"></button>
+            <div id="switch-camera">
+              <i class="fa-solid fa-arrows-rotate"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <canvas id="canvas" style="display: none"></canvas>
+    </div>
+    <script src="/js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/048e0c164b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
